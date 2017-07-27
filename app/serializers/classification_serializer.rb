@@ -12,7 +12,9 @@ class ClassificationSerializer < ActiveModel::Serializer
       'Quill Diagnostic'
     when 5
       'Quill Connect'
-  	end
+    when 6
+      'Quill Lessons'
+    end
   end
 
   def image_class
